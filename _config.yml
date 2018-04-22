@@ -1,8 +1,8 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I am freelance developer. Currently doing more in backend, focused in Python and Django.
+title: Weiho's Blog
+description: 企业安全,代码审计,Web安全,Linux Hacking,安全架构,内网渗透,Weiho@secbug
+author: Weiho
+github: https://github.com/zhaoweiho
+about: Life is stuggle,try everything
 disqus_shortname: stackproblems
 google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/avatar.jpg
@@ -19,17 +19,17 @@ social:
     - icon: fa-facebook
       link: "#"
     - icon: fa-twitter
-      link: "https://twitter.com/agusmakmun6"
+      link: "#"
     - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/summonagus"
+      link: "#"
     - icon: fa-stack-exchange
       link: "#"
     - icon: fa-github
-      link: "https://github.com/agusmakmun"
+      link: "https://github.com/zhaoweiho"
 
 share:
-  twitter_username: agusmakmun6
-  fb_appid: 1749788565247320
+  twitter_username: #
+  fb_appid: #
 
 urls:
     - text: About Me
@@ -38,8 +38,10 @@ urls:
       url: /projects/
     - text: XML Feed
       url: /feed.xml
+      - text: Link
+      url: /link/
 
-url: "https://agusmakmun.github.io"
+url: "http://www.weiho.xyz"
 baseurl: ""
 paginate: 20
 per_page: 20
