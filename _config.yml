@@ -16,23 +16,22 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
+    - icon: fa-weibo
+      link: "#"
+    - icon: fa-weixin
       link: "#"
     - icon: fa-twitter
       link: "#"
     - icon: fa-linkedin
       link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
     - icon: fa-github
       link: "https://github.com/zhaoweiho"
     - icon: fa-instagram
       link: "#"
-    - icon: fa-weibo
+    - icon: fa-stack-exchange
       link: "#"
-    - icon: fa-weixin
-      link: "#"
-      
+    - icon: fa-facebook
+      link: "#"      
 share:
   twitter_username: #
   fb_appid: #
