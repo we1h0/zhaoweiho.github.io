@@ -30,7 +30,9 @@ social:
       link: "#"
     - icon: fa-weibo
       link: "#"
-
+    - icon: fa-weixin
+      link: "#"
+      
 share:
   twitter_username: #
   fb_appid: #
