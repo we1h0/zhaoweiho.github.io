@@ -28,9 +28,7 @@ social:
       link: "#"
     - icon: fa-facebook
       link: "#"     
-    - icon: fa-mail-reply 
-      link: "mailto:h4x0er#secbug.org"     
-      #
+#
 share:
   twitter_username: #
   fb_appid: #
