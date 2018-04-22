@@ -18,11 +18,11 @@ collections:
 social:
     - icon: fa-weibo
       link: "#"
-    - icon: fa-instagram
-      link: "#"
     - icon: fa-facebook
       link: "#"     
     - icon: fa-twitter
+      link: "#"
+    - icon: fa-instagram
       link: "#"
     - icon: fa-linkedin
       link: "#"
@@ -35,9 +35,9 @@ share:
   fb_appid: #
 
 urls:
-    - text: About Me
+    - text: About
       url: /about/
-    - text: XML Feed
+    - text: RSS
       url: /feed.xml
     - text: Link
       url: /link/
