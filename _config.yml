@@ -1,14 +1,55 @@
+title: Stack Problems
+description: My Personal Stack Problems
+author: Agus Makmun
+github: https://github.com/agusmakmun
+about: I am freelance developer. Currently doing more in backend, focused in Python and Django.
+disqus_shortname: stackproblems
+google_analytics: UA-XXXXXXXX-Y
+avatar_url: /static/img/avatar.jpg
 
-title: Weiho's Blog - Life's a stuggle,try everything
-email: h4x0er@secbug.org
-description: 关注企业安全、WEB安全、企业安全架构、Linux Hacking、网站漏洞、互联网安全知识、渗透测试、安全培训
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://www.weiho.xyz" # the base hostname & protocol for your site
-#twitter_username:
-github_username:  zhaoweiho
+enableTags: true
+tagarray: []
 
-# Build settings
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    - icon: fa-facebook
+      link: "#"
+    - icon: fa-twitter
+      link: "https://twitter.com/agusmakmun6"
+    - icon: fa-linkedin
+      link: "https://www.linkedin.com/in/summonagus"
+    - icon: fa-stack-exchange
+      link: "#"
+    - icon: fa-github
+      link: "https://github.com/agusmakmun"
+
+share:
+  twitter_username: agusmakmun6
+  fb_appid: 1749788565247320
+
+urls:
+    - text: About Me
+      url: /about/
+    - text: My Projects
+      url: /projects/
+    - text: XML Feed
+      url: /feed.xml
+
+url: "https://agusmakmun.github.io"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
 markdown: kramdown
-paginate: 3
-gems: [jekyll-paginate]
-paginate_path: "/page/:num"
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
