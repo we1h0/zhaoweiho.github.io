@@ -38,7 +38,7 @@ urls:
       url: /projects/
     - text: XML Feed
       url: /feed.xml
-      - text: Link
+    - text: Link
       url: /link/
 
 url: "http://www.weiho.xyz"
