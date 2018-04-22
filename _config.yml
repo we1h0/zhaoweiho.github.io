@@ -27,7 +27,10 @@ social:
     - icon: fa-instagram
       link: "#"
     - icon: fa-facebook
-      link: "#"      
+      link: "#"     
+    - icon: fa-mail-reply 
+      link: "mailto:h4x0er#secbug.org"     
+      
 share:
   twitter_username: #
   fb_appid: #
