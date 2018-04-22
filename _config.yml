@@ -28,6 +28,8 @@ social:
       link: "https://github.com/zhaoweiho"
     - icon: fa-instagram
       link: "#"
+    - icon: fa-weibo
+      link: "#"
 
 share:
   twitter_username: #
