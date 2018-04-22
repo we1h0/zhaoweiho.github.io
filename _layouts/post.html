@@ -11,7 +11,7 @@ layout: default
     &raquo; {% for category in page.categories %}<a href="/category/{{ category }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %}{% endfor %}
   </span>
 {% endif %}
-
+<!--
 <div class="content">
   <div class="post">{{ content }}</div>
   {% include share-page.html %}
@@ -43,6 +43,7 @@ layout: default
   {% if hasSimilar.size > 0 %}
   </ul>
 </div>
+-->
 {% endif %}
 
 <div class="PageNavigation">
