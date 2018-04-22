@@ -38,7 +38,9 @@ urls:
       url: /feed.xml
     - text: Link
       url: /link/
-
+    - text: Search
+      url: /Search/
+      
 url: "http://www.weiho.xyz"
 baseurl: ""
 paginate: 20
