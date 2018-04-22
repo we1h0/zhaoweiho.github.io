@@ -40,7 +40,7 @@ urls:
       url: /link/
 
       
-url: "http://www.weiho.xyz"
+url: "https://www.weiho.xyz"
 baseurl: ""
 paginate: 20
 per_page: 20
