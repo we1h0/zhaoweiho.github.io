@@ -116,6 +116,13 @@ layout: compress
       ga('create', '{{ site.google_analytics }}', 'auto');
       ga('send', 'pageview');
     </script>
+	<!-- top -->
+	<script type="text/javascript"> 
+	function form_top(){ 
+	document.write('<div id="form_top"><a href="#_top" title="回到顶部"><div class="top_img"></div></a></div>') 
+	} 
+	form_top(); 
+	</script> 
 	
   </head>
   <body>
@@ -174,7 +181,6 @@ layout: compress
     <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
 	
-
 	<!--    
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
@@ -185,13 +191,6 @@ layout: compress
     <script src="/static/js/super-search.js"></script>
     <script src="/static/js/thickbox-compressed.js"></script>
     <script src="/static/js/projects.js"></script>
-
-	<script type="text/javascript"> 
-	function form_top(){ 
-	document.write('<div id="form_top"><a href="#_top" title="回到顶部"><div class="top_img"></div></a></div>') 
-	} 
-	form_top(); 
-	</script> 
 	
   </body>
 </html>
