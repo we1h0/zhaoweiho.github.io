@@ -4,6 +4,7 @@ layout: compress
 <!DOCTYPE html>
 <html>
   <head>
+    <a href="#" onclick="gotoTop();return false;" class="totop"></a>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1,micromessenger=1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,8 +16,6 @@ layout: compress
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
     <meta content="{{ site.share.fb_appid }}" property="fb:app_id">
     <meta content="{{ site.title }}" property="og:site_name">
-	
-	<a id="_top"></a> 
 	
     {% if page.noindex %}
       <meta name="robots" content="noindex">
@@ -191,6 +190,7 @@ layout: compress
     <script src="/static/js/super-search.js"></script>
     <script src="/static/js/thickbox-compressed.js"></script>
     <script src="/static/js/projects.js"></script>
+	<script src="/static/js/top.js"></script>
 	
   </body>
 </html>
