@@ -23,7 +23,7 @@
 
 #### Screenshot
 
-![Screenshot Post Page](https://raw.githubusercontent.com/agusmakmun/agusmakmun.github.io/master/static/img/screenshot-post-page.png  "Screenshot Post Page")
+![Screenshot Post Page](https://raw.githubusercontent.com/zhaoweiho/zhaoweiho.github.io/master/static/img/screenshot-post-page.png  "Screenshot Post Page")
 
 ### Install & Configuration
 
