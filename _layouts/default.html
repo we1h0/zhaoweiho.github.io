@@ -15,7 +15,9 @@ layout: compress
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
     <meta content="{{ site.share.fb_appid }}" property="fb:app_id">
     <meta content="{{ site.title }}" property="og:site_name">
-
+	
+	<a id="_top"></a> 
+	
     {% if page.noindex %}
       <meta name="robots" content="noindex">
     {% endif %}
@@ -101,7 +103,8 @@ layout: compress
     <link rel="stylesheet" href="/static/css/thickbox.css">
     <link rel="stylesheet" href="/static/css/projects.css">
     <link rel="stylesheet" href="/static/css/main.css">
-
+	<link rel="stylesheet" href="/static/css/top.css">
+	
     <!-- Google Analytics -->
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -182,5 +185,7 @@ layout: compress
     <script src="/static/js/super-search.js"></script>
     <script src="/static/js/thickbox-compressed.js"></script>
     <script src="/static/js/projects.js"></script>
+	<script src="/static/js/top.js"></script>
+	
   </body>
 </html>

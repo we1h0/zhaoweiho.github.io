@@ -1,0 +1,7 @@
+#form_top{display:block; bottom:3px; right:3px; position:fixed;} 
+.top_img{ 
+background-image: url("static/img/top.png"); 
+width: 40px; 
+height:40px; 
+cursor: pointer; 
+} 
