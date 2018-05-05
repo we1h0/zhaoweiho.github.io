@@ -1,8 +1,12 @@
 ---
 layout: default
 ---
-<script src="/static/js/https.js"></script>
-
+<script>
+var targetProtocol = "https:";
+if (window.location.protocol != targetProtocol)
+window.location.href = targetProtocol +
+window.location.href.substring(window.location.protocol.length);
+</script>
 <div id="home">
   <h1>{{ site.title }}</h1>
   <hr />
