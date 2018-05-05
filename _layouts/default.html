@@ -3,8 +3,13 @@ layout: compress
 ---
 <!DOCTYPE html>
 <html>
-  <script src="/static/js/https.js"></script>
   <head>
+<script>
+    var targetProtocol = "https:";
+	if (window.location.protocol != targetProtocol)
+	window.location.href = targetProtocol +
+	window.location.href.substring(window.location.protocol.length);
+</script>
     <a href="#" onclick="gotoTop();return false;" class="totop"></a>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
