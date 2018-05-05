@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Archives
+title: "归档：Archives"
 permalink: /archives/
 ---
 <ul class="list-unstyled">

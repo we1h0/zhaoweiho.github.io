@@ -1,6 +1,6 @@
 ---
 layout: page
-title: tags
+title: "标签：tags"
 permalink: /tags/
 ---
 <div>
