@@ -35,14 +35,19 @@ share:
   fb_appid: #
 
 urls:
+    - text: Tags
+      url: /tags/
+    - text: Categories
+      url: /categories/
+    - text: Archives
+      url: /archives/ 
     - text: About
       url: /about/
     - text: RSS
       url: /feed.xml
     - text: Link
       url: /link/
-    - text: Categories
-      url: /categories/
+
       
 url: "https://www.weiho.xyz"
 baseurl: ""
