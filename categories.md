@@ -1,7 +1,7 @@
 ---
 layout: page
-title: "Categories"
-permalink: /Categories/
+title: categories
+permalink: /categories/
 ---
 <ul class="list-unstyled">
 {% for cat in site.categories %} 
