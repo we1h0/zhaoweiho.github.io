@@ -3,7 +3,7 @@ Author:Weiho
 Time:2018-05-05 18:17
 https://github.com/zhaoweiho
 */
-function () {
+function https() {
 var targetProtocol = "https:";
 if (window.location.protocol != targetProtocol)
 window.location.href = targetProtocol +
