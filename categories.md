@@ -4,8 +4,6 @@ title: categories
 permalink: /categories/
 ---
 
-test
-
 <ul class="list-unstyled">
 {% for cat in site.categories %} 
 	{% if cat[0] != 'blog' %} 
