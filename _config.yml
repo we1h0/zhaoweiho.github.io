@@ -35,10 +35,8 @@ share:
   fb_appid: #
 
 urls:
-    - text: Tags
-      url: /tags/
-    - text: Categories
-      url: /categories/
+    - text: Category
+      url: /category/
     - text: Archives
       url: /archives/ 
     - text: About
