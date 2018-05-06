@@ -19,4 +19,4 @@ permalink: /about/
 1. Oh,no!...
 
 
-Find me on [邮箱](mailto:h4x0er@126.com)
+Find me on [Email](mailto:h4x0er@126.com)
