@@ -47,21 +47,30 @@ layout: default
 {% endif %}
 
 <div class="PageNavigation">
-            {% if page.previous.url %}
-            <li>
-                <span>上一篇</span>
-                <a href="{{page.previous.url}}">{{page.previous.title}}</a>
-            </li>
-            {% endif %}
-            {% if page.next.url %}
-            <li>
-                <span>下一篇</span>
-                <a href="{{page.next.url}}">{{page.next.title}}</a>
-            </li>
-            {% endif %}
-        </ul>
-        {% include comments.html %}
-    </div>
+  {% if page.previous.url %}
+    <a class="prev" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+  {% endif %}
+</div>
 
+
+<div id="lv-container" data-id="city" data-uid="MTAyMC8zNjI0Ni8xMjc4MQ==">
+	<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	</script>
+<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+</div>
 
 </div>
