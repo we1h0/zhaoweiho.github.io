@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "友情链接：Link"
 permalink: /link/
 ---
@@ -8,7 +8,7 @@ permalink: /link/
 ## 个人博客
  - [Weiho](https://www.weiho.xyz)
 
-## 社区媒体</br>
+## 社区媒体
  - [破晓团队](http://www.secbug.org/)
  
- 			{% include comments.html %} 
+ 
