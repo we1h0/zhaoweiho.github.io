@@ -106,7 +106,7 @@ div.col-sm-3 img.profile-avatar {
   margin-right: auto;
 }
 
-/* Pagination 
+/* Pagination */
 .PageNavigation {
   font-size: 14px;
   display: block;
@@ -125,7 +125,7 @@ div.col-sm-3 img.profile-avatar {
 .PageNavigation .prev {
   text-align: left;
 }
-*/
+
 /* Social Icons */
 .social{
   display: block;
@@ -147,13 +147,12 @@ div.col-sm-3 img.profile-avatar {
 .social li a:hover {
   color: #6D6D6D;
 }
-/*
+
 .share-page {
   padding: 10px 10px 5px;
   border-top: 1px solid #f0f0f0;
   border-bottom: 1px solid #f0f0f0;
 }
-*/
 .post-content img,
 .content img {
   max-width: 100%
@@ -171,3 +170,4 @@ div.col-sm-3 img.profile-avatar {
     margin-top: 30px;
   }
 }
+#
