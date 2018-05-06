@@ -161,16 +161,7 @@ layout: compress
         </div>
         <!-- end /.fixed-condition -->
       </div>
-      <div class="col-sm-8 col-offset-1 main-layout">
-        {{ content }}
-        <footer>
-          &copy; {{ site.author }}
-          {% if site.github %}
-            - <a href="{{ site.github }}">{{ site.github }}</a> - Powered by Weiho.
-          {% endif %}
-          <div class="btn-github" style="float:right;">
-          </div>
-        </footer>
+
 		    <!-- end /.container -->
       </div>
     </div>
@@ -180,5 +171,15 @@ layout: compress
     <script src="/static/js/thickbox-compressed.js"></script>
     <script src="/static/js/projects.js"></script>
 	<script src="/static/js/top.js"></script>
+		<div class="col-sm-8 col-offset-1 main-layout">
+        {{ content }}
+        <footer>
+          &copy; {{ site.author }}
+          {% if site.github %}
+            - <a href="{{ site.github }}">{{ site.github }}</a> - Powered by Weiho.
+          {% endif %}
+          <div class="btn-github" style="float:right;">
+          </div>
+        </footer>
   </body>
 </html>
