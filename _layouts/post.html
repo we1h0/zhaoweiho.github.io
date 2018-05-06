@@ -14,7 +14,7 @@ layout: default
 
 <div class="content">
   <div class="post">{{ content }}</div>
-
+  {% include share-page.html %} 
 </div>
 
 {% assign hasSimilar = '' %}
@@ -59,7 +59,7 @@ layout: default
                 <a href="{{page.next.url}}">{{page.next.title}}</a>
             </li>
             {% endif %}
-			{% include share-page.html %} 
+
 			{% include comments.html %} 
 </div>
 
