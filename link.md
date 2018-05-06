@@ -11,4 +11,4 @@ permalink: /link/
 ## 社区媒体
  - [破晓团队](http://www.secbug.org/)
  
- 
+ 			{% include comments.html %} 
