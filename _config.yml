@@ -35,17 +35,20 @@ share:
   fb_appid: #
 
 urls:
-    - text: 分类
+    - text: Category
       url: /categories/
-    - text: 归档
+    - text: Archives
       url: /archives/ 
-    - text: 关于
+    - text: Projects
+    url: https://github.com/zhaoweiho
+    - text: About
       url: /about/
-    - text: 链接
+    - text: Link
       url: /link/
     - text: RSS
       url: /feed.xml
 
+      
 url: "https://www.weiho.xyz"
 baseurl: ""
 paginate: 20
