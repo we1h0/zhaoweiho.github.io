@@ -39,6 +39,8 @@ urls:
       url: /categories/
     - text: Archives
       url: /archives/ 
+    - text: Projects
+      url: //github.com/zhaoweiho
     - text: About
       url: /about/
     - text: Link
