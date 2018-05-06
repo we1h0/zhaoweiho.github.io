@@ -33,7 +33,7 @@ function gotoTop(acceleration,stime) {
    window.scrollTo(Math.floor(x / speeding), Math.floor(y / speeding));
  
    // 如果距离不为零, 继续调用函数
-   if(x > 0 || y > 100) {
+   if(x > 0 || y > 0) {
        var run = "gotoTop(" + acceleration + ", " + stime + ")";
        window.setTimeout(run, stime);
    }
