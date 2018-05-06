@@ -20,16 +20,3 @@ permalink: /about/
 
 
 Find me on [Email](mailto:h4x0er@126.com)
-social:
-    - icon: fa-weibo
-      link: "#"
-    - icon: fa-facebook
-      link: "#"     
-    - icon: fa-twitter
-      link: "#"
-    - icon: fa-instagram
-      link: "#"
-    - icon: fa-linkedin
-      link: "#"
-    - icon: fa-github
-      link: "https://github.com/zhaoweiho"
