@@ -46,7 +46,6 @@ urls:
     - text: RSS
       url: /feed.xml
 
-      
 url: "https://www.weiho.xyz"
 baseurl: ""
 paginate: 20
@@ -61,3 +60,4 @@ compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
   endings: all
+  
