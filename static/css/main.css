@@ -106,8 +106,7 @@ div.col-sm-3 img.profile-avatar {
   margin-right: auto;
 }
 
-/*
- Pagination 
+/* Pagination */
 .PageNavigation {
   font-size: 14px;
   display: block;
@@ -126,7 +125,7 @@ div.col-sm-3 img.profile-avatar {
 .PageNavigation .prev {
   text-align: left;
 }
-*/
+
 /* Social Icons */
 .social{
   display: block;
