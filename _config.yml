@@ -35,14 +35,17 @@ share:
   fb_appid: #
 
 urls:
-    - text: About
+    - text: 分类
+      url: /categories/
+    - text: 归档
+      url: /archives/ 
+    - text: 关于
       url: /about/
+    - text: 链接
+      url: /link/
     - text: RSS
       url: /feed.xml
-    - text: Link
-      url: /link/
 
-      
 url: "https://www.weiho.xyz"
 baseurl: ""
 paginate: 20
@@ -57,3 +60,4 @@ compress_html:
   clippings: all
   comments: ["<!-- ", " -->"]
   endings: all
+  

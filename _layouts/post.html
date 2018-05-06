@@ -47,23 +47,22 @@ layout: default
 {% endif %}
 
 <div class="PageNavigation">
-  {% if page.previous.url %}
-    <a class="prev" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
-  {% endif %}
-  {% if page.next.url %}
-    <a class="next" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
-  {% endif %}
+            {% if page.previous.url %}
+            <li>
+                <span>上一篇</span>
+                <a href="{{page.previous.url}}">{{page.previous.title}}</a>
+            </li>
+            {% endif %}
+            {% if page.next.url %}
+            <li>
+                <span>下一篇</span>
+                <a href="{{page.next.url}}">{{page.next.title}}</a>
+            </li>
+            {% endif %}
 </div>
 
-<div class="disqus-comments">
-  <div id="disqus_thread"></div>
-  <!--
-  <script type="text/javascript">
-    /* <![CDATA[ */
-    var disqus_shortname = "{{ site.disqus_shortname }}";
-    var disqus_identifier = "{{ site.url }}_{{ page.title }}";
-    var disqus_title = "{{ page.title }}";
 
+<<<<<<< HEAD
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -73,5 +72,23 @@ layout: default
     /* ]]> */-
   </script>
 -->
+=======
+<div id="lv-container" data-id="city" data-uid="MTAyMC8zNjI0Ni8xMjc4MQ==">
+	<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	</script>
+<noscript> 为正常使用来必力评论功能请激活JavaScript</noscript>
+</div>
+>>>>>>> 9db1b4c523c6ae37e9f6fc8cae4b1f1698644ef9
 
 </div>
