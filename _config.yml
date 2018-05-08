@@ -26,17 +26,17 @@ social:
       link: "https://github.com/zhaoweiho"
 
 urls:
-    - text: Category
+    - text: 分类
       url: /categories/
-    - text: Archives
+    - text: 归档
       url: /archives/ 
-    - text: Projects
+    - text: 项目
       url: //github.com/zhaoweiho
-    - text: About
+    - text: 关于
       url: /about/
-    - text: Link
+    - text: 链接
       url: /link/
-    - text: RSS
+    - text: 订阅
       url: /feed.xml
     
 url: "https://www.weiho.xyz"
