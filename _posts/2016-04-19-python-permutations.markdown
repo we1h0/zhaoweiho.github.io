@@ -2,7 +2,7 @@
 layout: post
 title:  "Python Permutations"
 date:   2016-04-19 19:31:43 +0700
-categories: [python]
+categories: [reverse]
 ---
 This simply how to implement the module of permutations in python.
 
