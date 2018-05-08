@@ -3,8 +3,6 @@ description: 企业安全,代码审计,Web安全,Linux Hacking,安全架构,内�
 author: Weiho
 github: https://github.com/zhaoweiho
 about: Life is stuggle,try everything
-disqus_shortname: stackproblems
-google_analytics: UA-XXXXXXXX-Y
 avatar_url: /static/img/avatar.jpg
 
 enableTags: true
@@ -18,8 +16,6 @@ collections:
 social:
     - icon: fa-weibo
       link: "https://weibo.com/l4c1fer"
-    - icon: fa-facebook
-      link: "#"     
     - icon: fa-twitter
       link: "#"
     - icon: fa-instagram
@@ -28,11 +24,6 @@ social:
       link: "#"
     - icon: fa-github
       link: "https://github.com/zhaoweiho"
-
-#
-share:
-  twitter_username: #
-  fb_appid: #
 
 urls:
     - text: Category
