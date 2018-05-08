@@ -13,7 +13,6 @@ layout: compress
 		window.location.href.substring(window.location.protocol.length);
 	</script>
 	<!--body-->
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,32 +22,7 @@ layout: compress
     <meta name="description" content="{% if page.title %}{{ page.title }}{% else %}{{ site.description }}{% endif %}" />
     <meta name="keywords" content="{% if page.title %}{{ page.title }}, {{ site.title }}, {% for categ in page.categories %}{{ categ }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% else %}{{ site.title }}, {% for category in site.categories %}{% capture categories_slug %}{{ category | first }}{% endcapture %}{% for categ in categories_slug %}{{ categ }}{% endfor %}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endif %}" />
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/feed.xml">
-<!--
-    <meta content="{{ site.share.fb_appid }}" property="fb:app_id">
-    <meta content="{{ site.title }}" property="og:site_name">
-	
-    {% if page.noindex %}
-      <meta name="robots" content="noindex">
-    {% endif %}
 
-    {% if page.title %}
-      <meta content="{{ page.title }}" property="og:title">
-      <meta content="article" property="og:type">
-    {% else %}
-      <meta content="{{ site.title }}" property="og:title">
-      <meta content="website" property="og:type">
-    {% endif %}
-
-    {% if page.description %}
-      <meta content="{{ page.description }}" property="og:description">
-    {% else %}
-      <meta content="{{ site.description }}" property="og:description">
-    {% endif %}
-
-    {% if page.url %}
-      <meta content="{{ site.url }}{{ page.url }}" property="og:url">
-    {% endif %}
--->
     {% if page.date %}
       <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
       <meta content="{{ site.url }}/about/" property="article:author">
@@ -128,11 +102,9 @@ layout: compress
       <div class="col-sm-8 col-offset-1 main-layout">
         {{ content }}
         <footer>
-         Copyright &copy; 2018 {{ site.author }}
-		 <!--
+         Copyright &copy; 2018 
           {% if site.github %}
-            - <a href="{{ site.github }}">{{ site.github }}</a> - Powered by Weiho.
-			-->
+            - <a href="{{ site.github }}">{{ site.author }}</a> - Powered by Jekyll.
           {% endif %}
           <div class="btn-github" style="float:right;">
           </div>
