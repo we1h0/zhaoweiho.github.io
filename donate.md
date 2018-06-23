@@ -12,11 +12,14 @@ permalink: /donate/
 用支付宝/微信扫描该二维码吧。非常感谢您的支持！
 
 ##Purchase
+
 ----
 使用支付宝或者微信的用户，请使用手机扫描或点击二维码：
-<div class="tricol-center"><img src="static/img/alipay.jpg" alt="Alipay QR Code"></a></div>
-<div class="tricol-center"><img src="static/img/wechat.png" alt="WeChat QR Code"></div>
+![Alipay QR Code](./static/img/alipay.jpg)
+![WeChat QR Code](./static/img/wechat.png)
 ----
+
 ##Heroes
-Name | Academy | score 
+
+Name   Date   Comment 
 - | :-: | -: 
