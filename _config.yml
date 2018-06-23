@@ -1,56 +1,60 @@
+# Site settings
 title: 我的信息安全攻防指南
-description: Web安全,企业安全,内网渗透,安全开发,安全运维,渗透测试,代码审计
+url: "http://www.weiho.xyz"    # the protocol and hostname of your site, eg. `http://laobubu.github.io`
+baseurl: "/" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
+#timezone: Asia/Chongqing
+description: >
+  One or more sentences introducing this blog.
+
+# Your information
+
+email: h4x0er@secbug.org
 author: Weiho
-github: https://github.com/zhaoweiho
-about: Life is stuggle,try everything
-avatar_url: /static/img/avatar.jpg
+avatar: "//www.weiho.xyz/static/img/avatar.jpg"
+profile: Life is short,try everything
+#twitter_username: twitter_username
+#github_username:  github_username
+profile_links:
+  Email: "mailto:h4x0er@secbug.org"
+  GitHub: "https://github.com/zhaoweiho"
+  # You can add more profile links above, or edit _includes/sidebar.html 
 
-enableTags: true
-tagarray: []
+# Comment Service (Disqus or 多说)
+#  choose one and un-comment the line to active it
+#disqus_shortname: xxx   # get one: https://disqus.com/admin/signup/
+#duoshuo_shortname: xxx  # get one: http://duoshuo.com/create-site/
 
-collections:
-  project:
-    output: true
-    permalink: /project/:path/
+excerpt_separator: <!--more-->
 
-social:
-    - icon: fa-weibo
-      link: "https://weibo.com/l4c1fer"
-    - icon: fa-twitter
-      link: "https://twitter.com/Weiho14"
-    - icon: fa-instagram
-      link: "https://www.instagram.com/weiho.zhao/"
-    - icon: fa-linkedin
-      link: "https://www.linkedin.com/in/%E8%B6%99%E9%9F%AA%E7%81%8FWeiho/"
-    - icon: fa-github
-      link: "https://github.com/zhaoweiho"
+header:
+  links:             # Links on the header. Link to in-site page with a slash as prefix
+    About: /about/
+    Category: /category/
+    Link: /link/
 
-urls:
-    - text: 分类
-      url: /categories/
-    - text: 归档
-      url: /archives/ 
-    - text: 项目
-      url: //github.com/zhaoweiho
-    - text: 关于
-      url: /about/
-    - text: 链接
-      url: /link/
-    - text: 订阅
-      url: /feed.xml
-    
-url: "https://www.weiho.xyz"
-baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page/:num/"
+permalink: /archivers/:title
+plugins:
+ - jekyll-paginate
+ - jekyll-gist
+ - jemoji
+
+# Build settings
+paginate: 5
+paginate_path: "page:num"
+
+highlighter: rouge
 markdown: kramdown
-gems:
-  - jekyll-paginate
-  - jekyll-gist
 
-compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
-  
+# https://jekyllrb.com/docs/configuration/#precedence
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  math_engine: mathjax
