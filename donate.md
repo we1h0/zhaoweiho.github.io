@@ -3,7 +3,7 @@ layout: page
 title: 帮我买杯咖啡
 permalink: /donate/
 ---
-#帮我买杯咖啡
+# 帮我买杯咖啡
 
 很高兴我的作品能给你带来帮助，也感谢你点击了那个捐赠的链接。
 
@@ -11,7 +11,7 @@ permalink: /donate/
 
 用支付宝/微信扫描该二维码吧。非常感谢您的支持！
 
-##Purchase
+## Purchase
 
 ----
 使用支付宝或者微信的用户，请使用手机扫描或点击二维码：
@@ -19,7 +19,7 @@ permalink: /donate/
 ![WeChat QR Code](./static/img/wechat.png)
 ----
 
-##Heroes
+## Heroes
 
 Name   Date   Comment 
 - | :-: | -: 
