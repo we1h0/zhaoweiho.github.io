@@ -31,7 +31,6 @@ header:
     About: /about/
     Category: /category/
     Link: /link/
-    Search: /search/
 
 permalink: /archivers/:title
 plugins:
