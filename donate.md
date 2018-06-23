@@ -3,7 +3,6 @@ layout: page
 title: 帮我买杯咖啡
 permalink: /donate/
 ---
-# 帮我买杯咖啡
 <img src="https://www.weiho.xyz/static/img/sponsors.png" />
 很高兴我的作品能给你带来帮助，也感谢你点击了那个捐赠的链接。
 
