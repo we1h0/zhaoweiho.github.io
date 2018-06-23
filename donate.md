@@ -12,15 +12,12 @@ permalink: /donate/
 用支付宝/微信扫描该二维码吧。非常感谢您的支持！
 
 ## Purchase
-
-----
 使用支付宝或者微信的用户，请使用手机扫描或点击二维码：
 <center>
-<img src="./static/img/alipay.jpg" width="300" height="300" />
+<img src="https://www.weiho.xyz/static/img/alipay.jpg" width="300" height="300" />
 Alipay QR Code
 </center>
 <center>
-<img src="./static/img/wechat.png" width="300" height="300" />
+<img src="https://www.weiho.xyz/static/img/wechat.png" width="300" height="300" />
 WeChat QR Code
 </center>
-----
