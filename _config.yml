@@ -32,6 +32,7 @@ header:
     About: /about/
     Category: /category/
     Link: /link/
+    Donate: /donate/
 
 permalink: /archivers/:title
 plugins:
