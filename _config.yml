@@ -4,7 +4,7 @@ url: "http://www.weiho.xyz"    # the protocol and hostname of your site, eg. `ht
 baseurl: "/" # the prefix of your site uri, eg. `"/jekyll-theme-EasyBook"` or empty string `""`
 #timezone: Asia/Chongqing
 description: >
-  One or more sentences introducing this blog.
+  信息安全攻防指南(Weiho.xyz),分享企业安全/Web安全/移动端安全/系统安全/业务风控/渗透测试实战等一些个人经验
 
 # Your information
 
