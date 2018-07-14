@@ -31,13 +31,16 @@ permalink: /archivers/Traceability-go-fishing-website-20180714
 
 ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714103406.png)
 
-![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/8f83af916f494821bc2980ac6d539759.jpeg)
 
 ### 1.3 有sql注入
 
 本来想掏出SQLMAP一把梭,结果sqlmap居然没注入出来..可能是我的操作有问题..只能手工注入了.
 
-### 1.4 猜字段数目,当尝试注入语句字段个数为26返回正确,27返回错误,说明字段数等于26.
+![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/8f83af916f494821bc2980ac6d539759.jpeg)
+
+### 1.4 猜字段数目
+
+当尝试注入语句字段个数为26返回正确,27返回错误,说明字段数等于26.
 
 >http://www.xxxx.cn/zz/index.php?zt=1&uid=87 order by 26 //返回正常
 
@@ -81,7 +84,7 @@ php一句话<?php eval($_POST['test'])?>
 
 ### 1.8 提升权限
 
-![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714124904.png)
+![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714150838.png)
 连接上去看一下权限,Administrator..典型phpstudy安装完啥也不管直接把站丢上去的情况..还想着要不Mysql UDF或者MOF提权.这里接下来有两种做法,直接启用guest,添加密码以及管理员权限.第二种下个wce读取明文,以administrator的权限登陆.Ps:wce需要管理员或管理员以上的权限才可以,一般情况下配合本地提权exploit,但这里是Administrator.可以忽略掉要提权的操作.不过我们这里选前者,直接启用guest账号.先查看下对方在不在VPS里.状态:断开.
 >query users //查看登陆
 >
