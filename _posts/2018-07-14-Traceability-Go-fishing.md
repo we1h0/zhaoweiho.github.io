@@ -12,13 +12,13 @@ permalink: /archivers/Traceability-go-fishing-website-20180714
 
 ##0x01 溯源准备
 
-  ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714100404.jpg)<br />
+  ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714100404.jpg)
 
 ###1.1 开始
 
-看到链接下看到后缀php?uid=,初步判断应该是php+mysql的网站..复制链接到电脑浏览器打开后下意识职业病uid=87'<br />
-  ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714101207.png)<br />
-  ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714101745.png)<br />
+看到链接下看到后缀php?uid=,初步判断应该是php+mysql的网站..复制链接到电脑浏览器打开后下意识职业病uid=87'
+  ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714101207.png)
+  ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714101745.png)
 ###1.2 爆出路径,可能存在sql注入
 得到路径D:\xxxxx\zz\index.php，加上header头数据初步判断得出是Windows+Apache+Php+Mysql的网站,能爆路径很概率会有Sql注入,我们先记录下来路径是D:\xxxxx\
 >http://www.xxxx.cn/zz/index.php?zt=1&uid=87 xor 1=1 //返回正常
@@ -30,6 +30,7 @@ permalink: /archivers/Traceability-go-fishing-website-20180714
 ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/8f83af916f494821bc2980ac6d539759.jpeg)
 
 ###1.3 有sql注入
+
 本来想掏出SQLMAP一把梭,结果sqlmap居然没注入出来..可能是我的操作有问题..只能手工注入了.
 
 ###1.4 猜字段数目,当尝试注入语句字段个数为26返回正确,27返回错误,说明字段数等于26.
