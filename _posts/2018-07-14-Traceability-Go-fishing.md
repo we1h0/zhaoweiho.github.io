@@ -96,6 +96,7 @@ php一句话<?php eval($_POST['test'])?>
 ### 1.8 提升权限
 
 ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714150838.png)
+
 连接上去看一下权限,Administrator..典型phpstudy安装完啥也不管直接把站丢上去的情况..还想着要不Mysql UDF或者MOF提权.这里接下来有两种做法,直接启用guest,添加密码以及管理员权限.第二种下个wce读取明文,以administrator的权限登陆.Ps:wce需要管理员或管理员以上的权限才可以,一般情况下配合本地提权exploit,但这里是Administrator.可以忽略掉要提权的操作.不过我们这里选前者,直接启用guest账号.先查看下对方在不在VPS里.状态:断开.
 
 >query users //查看登陆
