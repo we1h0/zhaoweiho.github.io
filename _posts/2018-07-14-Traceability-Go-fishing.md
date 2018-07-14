@@ -145,9 +145,8 @@ mysqldump -uroot -proot123456 dbname > D:\xxxxx\dbname.sql
 
   把数据打包后,让那哥们交民警结果人家民警同志不信..说我数据可能伪造.我说让民警直接联系我吧,然后blabla不了了之,就立了案.OMG.大写服气.后面让玄道转交给江苏的网警同志.今天(7.14)记录一下昨晚(7.13)的大概过程.中间省略了一些不太必要的过程.后续可以做的事,分析apache以及系统日志.做个后门记录远程桌面访问的IP,以及iframe之类的引用插入后台相关地址记录.查看web服务器日志得到对应IP.
 
-## 0x04
+## 0x04 参考资料与工具
 
->参考资料
 >
 >[一个PHP+Mysql手工注入例子](https://blog.csdn.net/praifire/article/details/51926863)
 >
@@ -155,8 +154,9 @@ mysqldump -uroot -proot123456 dbname > D:\xxxxx\dbname.sql
 >
 >[Hex编码解码](https://www.107000.com/T-Hex/)
 >
+>[使用mimikatz_trunk获取计算机密码](https://jingyan.baidu.com/album/e52e36154c3ff140c70c515f.html)
+>
 >[caidao](https://github.com/pythonsky/caidao-20160620-www.maicaidao.com)
 >
 >[mimikatz](https://github.com/gentilkiwi/mimikatz)
 >
->[使用mimikatz_trunk获取计算机密码](https://jingyan.baidu.com/album/e52e36154c3ff140c70c515f.html)
