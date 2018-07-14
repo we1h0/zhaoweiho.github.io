@@ -12,7 +12,7 @@ permalink: /archivers/Traceability-go-fishing-website-20180714
 
 ## 0x01 溯源准备
 
-  ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714100404.jpg)
+  ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714151131.jpg)
 
 ### 1.1 开始
 
