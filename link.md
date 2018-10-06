@@ -8,7 +8,7 @@ permalink: /link/
 <p><strong>比如：</strong></p><blockquote><p>网站名称：Weiho<br>网站地址：<a href="https://www.weiho.xyz">https://weiho.xyz</a></p></blockquote>
 
 #### **个人博客**
- - [熊猫](https://my.oschina.net/9199771/blog)
+ - [熊猫](https://my.oschina.net/9199771)
  - [P神](https://pirogue.org/)
  - [冷白开](http://www.lengbaikai.net/)
  - [Superhua](https://superhua.cc/)
