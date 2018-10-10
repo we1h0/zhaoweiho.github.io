@@ -19,7 +19,6 @@ permalink: /archivers/Centos7-Install-Docker
  > $ sudo yum-config-manager --add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo
 
  5.可以查看所有仓库中所有docker版本，并选择特定版本安装
- 
  > $ yum list docker-ce --showduplicates | sort -r
 
  6.安装docker
