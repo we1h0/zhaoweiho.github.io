@@ -31,6 +31,7 @@ permalink: /archivers/Centos7-Install-Docker
  
  <code>  $ sudo yum install <FQPN>  </code> #例如：sudo yum install docker-ce-18.06.1.ce-3.el7
  
+ 
  <code>  $ sudo yum install docker-ce  </code> #由于repo中默认只开启stable仓库，故这里安装的是最新稳定版18.06.1.ce-3.el7
 
  7.启动并加入开机启动
