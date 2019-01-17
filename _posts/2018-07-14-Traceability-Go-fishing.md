@@ -2,7 +2,7 @@
 layout: post
 title:  "[Web安全]记一次钓鱼网站调查取证"
 date:   2018-07-14 9:51
-categories: jekyll
+categories: web-security
 permalink: /archivers/Traceability-go-fishing-website-20180714
 ---
 
