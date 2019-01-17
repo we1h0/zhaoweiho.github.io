@@ -2,7 +2,7 @@
 layout: post
 title:  "[系统运维]Centos7安装Docker"
 date:   2018-10-10 10:46
-categories: jekyll
+categories: os/linux
 permalink: /archivers/Centos7-Install-Docker
 ---
 
