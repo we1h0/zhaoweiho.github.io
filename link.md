@@ -21,6 +21,7 @@ permalink: /link/
  - [面具](https://www.lovesec.com)
  - [曲终人散](http://www.80hack.com)
  - [Pa55w0rd](https://www.pa55w0rd.online/)
+ - [青衫磊落](https://firexun.github.io/)
 <br>
 
 #### **社区媒体**
